@@ -1,0 +1,10 @@
+{
+  "behaviors": {
+    "CliqueMenuBehavior": {
+      "scriptId": "16",
+      "line": 2,
+      "parentBehavior": null,
+      "properties": []
+    }
+  }
+}
