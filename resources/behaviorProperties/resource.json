@@ -2,9 +2,31 @@
   "behaviors": {
     "CliqueMenuBehavior": {
       "scriptId": "16",
+      "line": 0,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "menuIndex",
+          "type": "number"
+        }
+      ]
+    },
+    "ExtendMenuBehavior": {
+      "scriptId": "26",
+      "line": 0,
+      "parentBehavior": "CliqueMenuBehavior",
+      "properties": []
+    },
+    "CycleBehavior": {
+      "scriptId": "29",
       "line": 2,
       "parentBehavior": null,
-      "properties": []
+      "properties": [
+        {
+          "name": "menuIndex",
+          "type": "number"
+        }
+      ]
     }
   }
 }

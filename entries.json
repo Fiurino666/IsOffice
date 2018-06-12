@@ -1,10 +1,22 @@
 {
-  "nextEntryId": 21,
+  "nextEntryId": 38,
   "nodes": [
     {
       "id": "4",
       "name": "Main",
       "type": "scene"
+    },
+    {
+      "id": "28",
+      "name": "Scene",
+      "type": null,
+      "children": [
+        {
+          "id": "27",
+          "name": "PersonnelScene",
+          "type": "scene"
+        }
+      ]
     },
     {
       "id": "13",
@@ -29,14 +41,34 @@
           "type": "sprite"
         },
         {
-          "id": "10",
-          "name": "Text",
-          "type": "fText"
-        },
-        {
           "id": "11",
           "name": "Font",
           "type": "font"
+        },
+        {
+          "id": "21",
+          "name": "Personnel",
+          "type": "fText"
+        },
+        {
+          "id": "22",
+          "name": "Acheter",
+          "type": "fText"
+        },
+        {
+          "id": "23",
+          "name": "Produire",
+          "type": "fText"
+        },
+        {
+          "id": "24",
+          "name": "Vendre",
+          "type": "fText"
+        },
+        {
+          "id": "25",
+          "name": "Compter",
+          "type": "fText"
         }
       ]
     },
@@ -46,6 +78,38 @@
       "type": null,
       "children": [
         {
+          "id": "17",
+          "name": "Bureau",
+          "type": null,
+          "children": [
+            {
+              "id": "18",
+              "name": "Ouvrier",
+              "type": "sprite"
+            },
+            {
+              "id": "15",
+              "name": "Production",
+              "type": "sprite"
+            },
+            {
+              "id": "19",
+              "name": "Commercial",
+              "type": "sprite"
+            },
+            {
+              "id": "20",
+              "name": "Comptable",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "31",
+          "name": "Comptable",
+          "type": "sprite"
+        },
+        {
           "id": "6",
           "name": "Fond",
           "type": "sprite"
@@ -53,6 +117,21 @@
         {
           "id": "7",
           "name": "Patron",
+          "type": "sprite"
+        },
+        {
+          "id": "30",
+          "name": "Telephone",
+          "type": "sprite"
+        },
+        {
+          "id": "32",
+          "name": "FondCycle",
+          "type": "sprite"
+        },
+        {
+          "id": "37",
+          "name": "Ouvrier",
           "type": "sprite"
         }
       ]
@@ -72,33 +151,40 @@
           "id": "16",
           "name": "CliqueMenu",
           "type": "script"
+        },
+        {
+          "id": "26",
+          "name": "ExtendMenu",
+          "type": "script"
+        },
+        {
+          "id": "29",
+          "name": "Cycle",
+          "type": "script"
         }
       ]
     },
     {
-      "id": "17",
-      "name": "Bureau",
+      "id": "33",
+      "name": "Cycle",
       "type": null,
       "children": [
         {
-          "id": "18",
-          "name": "Ouvrier",
-          "type": "sprite"
+          "id": "34",
+          "name": "Personnel",
+          "type": null,
+          "children": [
+            {
+              "id": "36",
+              "name": "Ouvrier",
+              "type": "sprite"
+            }
+          ]
         },
         {
-          "id": "15",
-          "name": "Production",
-          "type": "sprite"
-        },
-        {
-          "id": "19",
-          "name": "Commercial",
-          "type": "sprite"
-        },
-        {
-          "id": "20",
-          "name": "Comptable",
-          "type": "sprite"
+          "id": "35",
+          "name": "TitreFenetre",
+          "type": "font"
         }
       ]
     }
