@@ -28,7 +28,10 @@ class CliqueMenuBehavior extends Sup.Behavior {
       this.menuIndex = Math.min(this.menuIndex - 1, this.menus.length -1);
       this.updateMenu();
     }
-    if(Sup.Input.wasKeyJustPressed("ENTER", { autoRepeat:true })) {
+    if(Sup.Input.wasKeyJustPressed("RETURN", { autoRepeat:true })) {
+      this.menuAction();
+    }
+    if(Sup.Input.wasKeyJustPressed("SPACE", { autoRepeat:true })) {
       this.menuAction();
     }
   }

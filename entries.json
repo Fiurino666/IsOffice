@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 38,
+  "nextEntryId": 40,
   "nodes": [
     {
       "id": "4",
@@ -176,7 +176,17 @@
           "children": [
             {
               "id": "36",
-              "name": "Ouvrier",
+              "name": "OuvrierPersonnel",
+              "type": "sprite"
+            },
+            {
+              "id": "38",
+              "name": "CommercialPersonnel",
+              "type": "sprite"
+            },
+            {
+              "id": "39",
+              "name": "ComptablePersonnel",
               "type": "sprite"
             }
           ]
