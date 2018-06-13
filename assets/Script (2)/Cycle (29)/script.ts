@@ -1,4 +1,3 @@
-var tour : number = 0;
 
 class CycleBehavior extends Sup.Behavior {
   
@@ -22,7 +21,7 @@ class CycleBehavior extends Sup.Behavior {
       let button = this.menus[i];
       button.textRenderer.setColor(0,0,0);
     }
-    this.menus[tour].textRenderer.setColor(237,0,0);
+    this.menus[jeuTour].textRenderer.setColor(237,0,0);
   }
   
   

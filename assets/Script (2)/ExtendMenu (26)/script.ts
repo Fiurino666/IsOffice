@@ -1,21 +1,22 @@
 class ExtendMenuBehavior extends CliqueMenuBehavior {
   
   menuAction(){
-    switch(this.menuIndex){
+    
+    switch(jeuTour){
         case 0:
-        Sup.loadScene("../Scene/PersonnelScene");
+        Sup.loadScene("Scene/PersonnelScene");
         break;
         case 1:
-        Sup.loadScene("AcheterScene");
+        Sup.loadScene("Scene/AcheterScene");
         break;
         case 2:
-        Sup.loadScene("ProduireScene");
+        Sup.loadScene("Scene/ProduireScene");
         break;
         case 3:
-        Sup.loadScene("VendreScene");
+        Sup.loadScene("Scene/VendreScene");
         break;
         case 4:
-        Sup.loadScene("CompterScene");
+        Sup.loadScene("Scene/CompterScene");
         break;
       default:
         break;

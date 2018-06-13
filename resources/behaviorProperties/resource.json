@@ -8,6 +8,10 @@
         {
           "name": "menuIndex",
           "type": "number"
+        },
+        {
+          "name": "isHover",
+          "type": "boolean"
         }
       ]
     },
@@ -19,7 +23,18 @@
     },
     "CycleBehavior": {
       "scriptId": "29",
-      "line": 2,
+      "line": 1,
+      "parentBehavior": null,
+      "properties": [
+        {
+          "name": "menuIndex",
+          "type": "number"
+        }
+      ]
+    },
+    "PersonnelBoutonBehavior": {
+      "scriptId": "41",
+      "line": 0,
       "parentBehavior": null,
       "properties": [
         {

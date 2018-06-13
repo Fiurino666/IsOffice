@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 40,
+  "nextEntryId": 43,
   "nodes": [
     {
       "id": "4",
@@ -7,26 +7,46 @@
       "type": "scene"
     },
     {
-      "id": "28",
-      "name": "Scene",
-      "type": null,
-      "children": [
-        {
-          "id": "27",
-          "name": "PersonnelScene",
-          "type": "scene"
-        }
-      ]
+      "id": "42",
+      "name": "Global",
+      "type": "script"
     },
     {
-      "id": "13",
-      "name": "Element",
+      "id": "33",
+      "name": "Cycle",
       "type": null,
       "children": [
         {
-          "id": "14",
-          "name": "Argent",
-          "type": "sprite"
+          "id": "34",
+          "name": "Personnel",
+          "type": null,
+          "children": [
+            {
+              "id": "36",
+              "name": "OuvrierPersonnel",
+              "type": "sprite"
+            },
+            {
+              "id": "38",
+              "name": "CommercialPersonnel",
+              "type": "sprite"
+            },
+            {
+              "id": "39",
+              "name": "ComptablePersonnel",
+              "type": "sprite"
+            },
+            {
+              "id": "40",
+              "name": "Bouton",
+              "type": "sprite"
+            }
+          ]
+        },
+        {
+          "id": "35",
+          "name": "TitreFenetre",
+          "type": "font"
         }
       ]
     },
@@ -73,74 +93,16 @@
       ]
     },
     {
-      "id": "0",
-      "name": "Sprite",
+      "id": "28",
+      "name": "Scene",
       "type": null,
       "children": [
         {
-          "id": "17",
-          "name": "Bureau",
-          "type": null,
-          "children": [
-            {
-              "id": "18",
-              "name": "Ouvrier",
-              "type": "sprite"
-            },
-            {
-              "id": "15",
-              "name": "Production",
-              "type": "sprite"
-            },
-            {
-              "id": "19",
-              "name": "Commercial",
-              "type": "sprite"
-            },
-            {
-              "id": "20",
-              "name": "Comptable",
-              "type": "sprite"
-            }
-          ]
-        },
-        {
-          "id": "31",
-          "name": "Comptable",
-          "type": "sprite"
-        },
-        {
-          "id": "6",
-          "name": "Fond",
-          "type": "sprite"
-        },
-        {
-          "id": "7",
-          "name": "Patron",
-          "type": "sprite"
-        },
-        {
-          "id": "30",
-          "name": "Telephone",
-          "type": "sprite"
-        },
-        {
-          "id": "32",
-          "name": "FondCycle",
-          "type": "sprite"
-        },
-        {
-          "id": "37",
-          "name": "Ouvrier",
-          "type": "sprite"
+          "id": "27",
+          "name": "PersonnelScene",
+          "type": "scene"
         }
       ]
-    },
-    {
-      "id": "1",
-      "name": "Sound",
-      "type": null,
-      "children": []
     },
     {
       "id": "2",
@@ -161,40 +123,76 @@
           "id": "29",
           "name": "Cycle",
           "type": "script"
+        },
+        {
+          "id": "41",
+          "name": "PersonnelBouton",
+          "type": "script"
         }
       ]
     },
     {
-      "id": "33",
-      "name": "Cycle",
+      "id": "1",
+      "name": "Sound",
+      "type": null,
+      "children": []
+    },
+    {
+      "id": "0",
+      "name": "Sprite",
       "type": null,
       "children": [
         {
-          "id": "34",
-          "name": "Personnel",
+          "id": "17",
+          "name": "Bureau",
           "type": null,
           "children": [
             {
-              "id": "36",
-              "name": "OuvrierPersonnel",
+              "id": "15",
+              "name": "Production",
               "type": "sprite"
             },
             {
-              "id": "38",
-              "name": "CommercialPersonnel",
+              "id": "19",
+              "name": "Commercial",
               "type": "sprite"
             },
             {
-              "id": "39",
-              "name": "ComptablePersonnel",
+              "id": "20",
+              "name": "Comptable",
+              "type": "sprite"
+            },
+            {
+              "id": "37",
+              "name": "Ouvrier",
               "type": "sprite"
             }
           ]
         },
         {
-          "id": "35",
-          "name": "TitreFenetre",
-          "type": "font"
+          "id": "14",
+          "name": "Argent",
+          "type": "sprite"
+        },
+        {
+          "id": "31",
+          "name": "Comptable",
+          "type": "sprite"
+        },
+        {
+          "id": "6",
+          "name": "Fond",
+          "type": "sprite"
+        },
+        {
+          "id": "7",
+          "name": "Patron",
+          "type": "sprite"
+        },
+        {
+          "id": "32",
+          "name": "FondCycle",
+          "type": "sprite"
         }
       ]
     }

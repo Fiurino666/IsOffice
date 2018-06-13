@@ -4,52 +4,7 @@
     {
       "id": "0",
       "name": "Background",
-      "children": [
-        {
-          "id": "15",
-          "name": "Anime",
-          "children": [],
-          "components": [
-            {
-              "type": "SpriteRenderer",
-              "config": {
-                "formatVersion": 1,
-                "spriteAssetId": null,
-                "animationId": null,
-                "horizontalFlip": false,
-                "verticalFlip": false,
-                "castShadow": false,
-                "receiveShadow": false,
-                "color": "ffffff",
-                "overrideOpacity": false,
-                "opacity": null,
-                "materialType": "basic",
-                "shaderAssetId": null
-              },
-              "id": "0"
-            }
-          ],
-          "position": {
-            "x": 2.431,
-            "y": -2.134,
-            "z": 2
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        }
-      ],
+      "children": [],
       "components": [
         {
           "type": "SpriteRenderer",
@@ -568,8 +523,8 @@
             }
           ],
           "position": {
-            "x": -1.8379974365234375,
-            "y": 0.04071235656738281,
+            "x": -1.7242220640182495,
+            "y": 0.11185622215270996,
             "z": 3
           },
           "orientation": {
@@ -678,9 +633,9 @@
       ],
       "components": [],
       "position": {
-        "x": 3.509333610534668,
-        "y": 2.3564634323120117,
-        "z": 50
+        "x": 3.509,
+        "y": 2.356,
+        "z": 1
       },
       "orientation": {
         "x": 0,
