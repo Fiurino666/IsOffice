@@ -165,7 +165,7 @@
                 "formatVersion": 2,
                 "fontAssetId": "11",
                 "text": "Personnel",
-                "alignment": "center",
+                "alignment": "left",
                 "verticalAlignment": "center",
                 "size": 13,
                 "color": "ff0000",
@@ -176,7 +176,7 @@
             }
           ],
           "position": {
-            "x": -8.643,
+            "x": -9,
             "y": 5.102,
             "z": 1
           },
@@ -206,7 +206,7 @@
                 "formatVersion": 2,
                 "fontAssetId": "11",
                 "text": "Acheter",
-                "alignment": "center",
+                "alignment": "left",
                 "verticalAlignment": "center",
                 "size": 13,
                 "color": "ff0000",
@@ -217,7 +217,7 @@
             }
           ],
           "position": {
-            "x": -8.848,
+            "x": -9,
             "y": 4.723,
             "z": 1
           },
@@ -247,7 +247,7 @@
                 "formatVersion": 2,
                 "fontAssetId": "11",
                 "text": "Produire",
-                "alignment": "center",
+                "alignment": "left",
                 "verticalAlignment": "center",
                 "size": 13,
                 "color": "ff0000",
@@ -258,7 +258,7 @@
             }
           ],
           "position": {
-            "x": -8.757,
+            "x": -9,
             "y": 4.343,
             "z": 1
           },
@@ -288,7 +288,7 @@
                 "formatVersion": 2,
                 "fontAssetId": "11",
                 "text": "Vendre",
-                "alignment": "center",
+                "alignment": "left",
                 "verticalAlignment": "center",
                 "size": 13,
                 "color": "ff0000",
@@ -299,7 +299,7 @@
             }
           ],
           "position": {
-            "x": -8.958,
+            "x": -9,
             "y": 3.983,
             "z": 1
           },
@@ -329,7 +329,7 @@
                 "formatVersion": 2,
                 "fontAssetId": "11",
                 "text": "Compter",
-                "alignment": "center",
+                "alignment": "left",
                 "verticalAlignment": "center",
                 "size": 13,
                 "color": "ff0000",
@@ -340,7 +340,7 @@
             }
           ],
           "position": {
-            "x": -8.86,
+            "x": -9,
             "y": 3.585,
             "z": 1
           },

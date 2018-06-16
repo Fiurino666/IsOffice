@@ -1,5 +1,5 @@
 {
-  "nextEntryId": 43,
+  "nextEntryId": 44,
   "nodes": [
     {
       "id": "4",
@@ -40,6 +40,11 @@
               "id": "40",
               "name": "Bouton",
               "type": "sprite"
+            },
+            {
+              "id": "43",
+              "name": "Chiffre",
+              "type": "font"
             }
           ]
         },

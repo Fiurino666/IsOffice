@@ -69,13 +69,12 @@ class CliqueMenuBehavior extends Sup.Behavior {
   updateMenu(){
     
     for(let i = 0; i<this.menus.length;i++){
-      let button = this.menus[i];
-      button.textRenderer.setOpacity(i === this.menuIndex ? 1 : 0.7);
+      this.menus[i].textRenderer.setOpacity(i === this.menuIndex ? 1 : 0.7);
     }
   }
   
   menuAction(){
-    //Elle est implementer dans ExtendedMenu pour plus de clarte
+    //Elle est implementée dans ExtendedMenu pour plus de clarte
   }
   
 }

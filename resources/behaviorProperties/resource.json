@@ -40,6 +40,10 @@
         {
           "name": "menuIndex",
           "type": "number"
+        },
+        {
+          "name": "isHover",
+          "type": "boolean"
         }
       ]
     }

@@ -276,13 +276,13 @@
               "config": {
                 "formatVersion": 2,
                 "fontAssetId": "35",
-                "text": "X",
+                "text": "Exit",
                 "alignment": "center",
                 "verticalAlignment": "center",
                 "size": null,
                 "color": "ff0000",
-                "overrideOpacity": false,
-                "opacity": null
+                "overrideOpacity": true,
+                "opacity": 1
               },
               "id": "0"
             }
@@ -299,8 +299,8 @@
             "w": 1
           },
           "scale": {
-            "x": 1,
-            "y": 1,
+            "x": 0.4,
+            "y": 0.4,
             "z": 1
           },
           "visible": true,
@@ -331,7 +331,7 @@
     },
     {
       "id": "2",
-      "name": "Image",
+      "name": "Images",
       "children": [
         {
           "id": "7",
@@ -493,7 +493,7 @@
       "children": [
         {
           "id": "14",
-          "name": "Embaucher",
+          "name": "Rectangle",
           "children": [
             {
               "id": "15",
@@ -649,181 +649,6 @@
               "prefab": null
             },
             {
-              "id": "22",
-              "name": "Texte",
-              "children": [
-                {
-                  "id": "23",
-                  "name": "TxtEmbaucherOuvrier",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "TextRenderer",
-                      "config": {
-                        "formatVersion": 2,
-                        "fontAssetId": "11",
-                        "text": "Embaucher",
-                        "alignment": "center",
-                        "verticalAlignment": "center",
-                        "size": null,
-                        "color": null,
-                        "overrideOpacity": false,
-                        "opacity": null
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": -6.72,
-                    "y": -0.8,
-                    "z": 2
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 0.25,
-                    "y": 0.3,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                },
-                {
-                  "id": "24",
-                  "name": "TxtEmbaucherCommercial",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "TextRenderer",
-                      "config": {
-                        "formatVersion": 2,
-                        "fontAssetId": "11",
-                        "text": "Embaucher",
-                        "alignment": "center",
-                        "verticalAlignment": "center",
-                        "size": null,
-                        "color": null,
-                        "overrideOpacity": false,
-                        "opacity": null
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": 0,
-                    "y": -0.8,
-                    "z": 2
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 0.25,
-                    "y": 0.3,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                },
-                {
-                  "id": "25",
-                  "name": "TxtEmbaucherComptable",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "TextRenderer",
-                      "config": {
-                        "formatVersion": 2,
-                        "fontAssetId": "11",
-                        "text": "Embaucher",
-                        "alignment": "center",
-                        "verticalAlignment": "center",
-                        "size": null,
-                        "color": null,
-                        "overrideOpacity": false,
-                        "opacity": null
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": 6,
-                    "y": -0.8,
-                    "z": 2
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 0.25,
-                    "y": 0.3,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                }
-              ],
-              "components": [],
-              "position": {
-                "x": 1.985538125038147,
-                "y": 0.7807810306549072,
-                "z": 0
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": null
-            }
-          ],
-          "components": [],
-          "position": {
-            "x": 0,
-            "y": 0,
-            "z": 1
-          },
-          "orientation": {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "w": 1
-          },
-          "scale": {
-            "x": 1,
-            "y": 1,
-            "z": 1
-          },
-          "visible": true,
-          "layer": 0,
-          "prefab": null
-        },
-        {
-          "id": "18",
-          "name": "Licencier",
-          "children": [
-            {
               "id": "19",
               "name": "LicencierOuvrier",
               "children": [],
@@ -855,8 +680,8 @@
                 }
               ],
               "position": {
-                "x": -4.786,
-                "y": -1.3,
+                "x": -4.7860002517700195,
+                "y": -1.3000001907348633,
                 "z": 1
               },
               "orientation": {
@@ -867,7 +692,7 @@
               },
               "scale": {
                 "x": 1,
-                "y": 0.6,
+                "y": 0.6000000238418579,
                 "z": 1
               },
               "visible": true,
@@ -907,7 +732,7 @@
               ],
               "position": {
                 "x": 8,
-                "y": -1.3,
+                "y": -1.3000001907348633,
                 "z": 1
               },
               "orientation": {
@@ -918,7 +743,7 @@
               },
               "scale": {
                 "x": 1,
-                "y": 0.6,
+                "y": 0.6000000238418579,
                 "z": 1
               },
               "visible": true,
@@ -958,7 +783,7 @@
               ],
               "position": {
                 "x": 2,
-                "y": -1.3,
+                "y": -1.3000001907348633,
                 "z": 1
               },
               "orientation": {
@@ -969,156 +794,7 @@
               },
               "scale": {
                 "x": 1,
-                "y": 0.6,
-                "z": 1
-              },
-              "visible": true,
-              "layer": 0,
-              "prefab": null
-            },
-            {
-              "id": "26",
-              "name": "Texte",
-              "children": [
-                {
-                  "id": "27",
-                  "name": "TxtLicencierOuvrier",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "TextRenderer",
-                      "config": {
-                        "formatVersion": 2,
-                        "fontAssetId": "11",
-                        "text": "Licencier",
-                        "alignment": "center",
-                        "verticalAlignment": "center",
-                        "size": null,
-                        "color": null,
-                        "overrideOpacity": false,
-                        "opacity": null
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": -6.72,
-                    "y": -2.1,
-                    "z": 2
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 0.25,
-                    "y": 0.3,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                },
-                {
-                  "id": "28",
-                  "name": "TxtLicencierCommercial",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "TextRenderer",
-                      "config": {
-                        "formatVersion": 2,
-                        "fontAssetId": "11",
-                        "text": "Licencier",
-                        "alignment": "center",
-                        "verticalAlignment": "center",
-                        "size": null,
-                        "color": null,
-                        "overrideOpacity": false,
-                        "opacity": null
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": 0,
-                    "y": -2.1,
-                    "z": 2
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 0.25,
-                    "y": 0.3,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                },
-                {
-                  "id": "29",
-                  "name": "TxtEmbaucherComptable",
-                  "children": [],
-                  "components": [
-                    {
-                      "type": "TextRenderer",
-                      "config": {
-                        "formatVersion": 2,
-                        "fontAssetId": "11",
-                        "text": "Licencier",
-                        "alignment": "center",
-                        "verticalAlignment": "center",
-                        "size": null,
-                        "color": null,
-                        "overrideOpacity": false,
-                        "opacity": null
-                      },
-                      "id": "0"
-                    }
-                  ],
-                  "position": {
-                    "x": 6,
-                    "y": -2.1,
-                    "z": 2
-                  },
-                  "orientation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0,
-                    "w": 1
-                  },
-                  "scale": {
-                    "x": 0.25,
-                    "y": 0.3,
-                    "z": 1
-                  },
-                  "visible": true,
-                  "layer": 0,
-                  "prefab": null
-                }
-              ],
-              "components": [],
-              "position": {
-                "x": 1.986,
-                "y": 0.781,
-                "z": 2
-              },
-              "orientation": {
-                "x": 0,
-                "y": 0,
-                "z": 0,
-                "w": 1
-              },
-              "scale": {
-                "x": 1,
-                "y": 1,
+                "y": 0.6000000238418579,
                 "z": 1
               },
               "visible": true,
@@ -1146,12 +822,556 @@
           "visible": true,
           "layer": 0,
           "prefab": null
+        },
+        {
+          "id": "37",
+          "name": "Txt",
+          "children": [
+            {
+              "id": "23",
+              "name": "TxtEmbaucherOuvrier",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "11",
+                    "text": "Embaucher",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -6.832921028137207,
+                "y": -1.5164592266082764,
+                "z": -46
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "24",
+              "name": "TxtEmbaucherCommercial",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "11",
+                    "text": "Embaucher",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -0.11292111873626709,
+                "y": -1.5164592266082764,
+                "z": -46
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "25",
+              "name": "TxtEmbaucherComptable",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "11",
+                    "text": "Embaucher",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 5.887079238891602,
+                "y": -1.5164592266082764,
+                "z": -46
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "27",
+              "name": "TxtLicencierOuvrier",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "11",
+                    "text": "Licencier",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -6.832459449768066,
+                "y": -2.816240072250366,
+                "z": -44
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "28",
+              "name": "TxtLicencierCommercial",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "11",
+                    "text": "Licencier",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": -0.11245930194854736,
+                "y": -2.816240072250366,
+                "z": -44
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            },
+            {
+              "id": "29",
+              "name": "TxtLicencierComptable",
+              "children": [],
+              "components": [
+                {
+                  "type": "TextRenderer",
+                  "config": {
+                    "formatVersion": 2,
+                    "fontAssetId": "11",
+                    "text": "Licencier",
+                    "alignment": "center",
+                    "verticalAlignment": "center",
+                    "size": null,
+                    "color": null,
+                    "overrideOpacity": false,
+                    "opacity": null
+                  },
+                  "id": "0"
+                }
+              ],
+              "position": {
+                "x": 5.887540817260742,
+                "y": -2.816240072250366,
+                "z": -44
+              },
+              "orientation": {
+                "x": 0,
+                "y": 0,
+                "z": 0,
+                "w": 1
+              },
+              "scale": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 1
+              },
+              "visible": true,
+              "layer": 0,
+              "prefab": null
+            }
+          ],
+          "components": [],
+          "position": {
+            "x": 2.098459154367447,
+            "y": 1.4972403049468994,
+            "z": 49
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
         }
       ],
       "components": [],
       "position": {
         "x": -2.469,
         "y": -4.278,
+        "z": 1
+      },
+      "orientation": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "visible": true,
+      "layer": 0,
+      "prefab": null
+    },
+    {
+      "id": "30",
+      "name": "Labels",
+      "children": [
+        {
+          "id": "31",
+          "name": "AfficheOuvrier",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "43",
+                "text": "",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": true,
+                "opacity": 1
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -9.104,
+            "y": 0.4,
+            "z": 3
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "32",
+          "name": "AfficheCommercial",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "43",
+                "text": "",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": true,
+                "opacity": 1
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.24,
+            "y": 0.4,
+            "z": 3
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "33",
+          "name": "AfficheComptable",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "43",
+                "text": "",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": true,
+                "opacity": 1
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.7,
+            "y": 0.4,
+            "z": 3
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "34",
+          "name": "NBO",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "11",
+                "text": "NB : ",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": true,
+                "opacity": 1
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -8.93,
+            "y": 1.2,
+            "z": 3
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "35",
+          "name": "NBC",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "11",
+                "text": "NB : ",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": true,
+                "opacity": 1
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": -3.05,
+            "y": 1.2,
+            "z": 3
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        },
+        {
+          "id": "36",
+          "name": "NBCC",
+          "children": [],
+          "components": [
+            {
+              "type": "TextRenderer",
+              "config": {
+                "formatVersion": 2,
+                "fontAssetId": "11",
+                "text": "NB : ",
+                "alignment": "center",
+                "verticalAlignment": "center",
+                "size": null,
+                "color": "000000",
+                "overrideOpacity": true,
+                "opacity": 1
+              },
+              "id": "0"
+            }
+          ],
+          "position": {
+            "x": 2.8,
+            "y": 1.2,
+            "z": 3
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5,
+            "z": 1
+          },
+          "visible": true,
+          "layer": 0,
+          "prefab": null
+        }
+      ],
+      "components": [],
+      "position": {
+        "x": -0.371,
+        "y": -2.781,
         "z": 1
       },
       "orientation": {

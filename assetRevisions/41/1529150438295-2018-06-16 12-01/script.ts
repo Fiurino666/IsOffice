@@ -22,7 +22,7 @@ class PersonnelBoutonBehavior extends Sup.Behavior{
     //permet de remettre l opacite a 1 par defaut
     this.updateMenu(1);
     //enleve le flip vertical du clik sur le bouton
-    this.noclic();
+    noclic();
     
     //pour que le fait de passer le curseur dessus change l opacite a 0.7
     this.mouseNavigation();
@@ -46,21 +46,21 @@ class PersonnelBoutonBehavior extends Sup.Behavior{
     EmbaucherOuvrier.fMouseInput.emitter.on("leftClickReleased", () => { 
       nbOuvrier += 1;
       AfficheOuvrier.textRenderer.setText(nbOuvrier);
-      this.clicVisuel(EmbaucherOuvrier);
+      clicVisuel(EmbaucherOuvrier);
       //Sup.log(`Nombre d ouvrier ${nbOuvrier}`);
     });
 
     EmbaucherCommercial.fMouseInput.emitter.on("leftClickReleased", () => { 
       nbCommercial += 1;
       AfficheCommercial.textRenderer.setText(nbCommercial);
-      this.clicVisuel(EmbaucherCommercial);
+      clicVisuel(EmbaucherCommercial);
       //Sup.log(`Nombre d commercial ${nbCommercial}`); 
     });
     
     EmbaucherComptable.fMouseInput.emitter.on("leftClickReleased", () => { 
       nbComptable += 1;
       AfficheComptable.textRenderer.setText(nbComptable);
-      this.clicVisuel(EmbaucherComptable);
+      clicVisuel(EmbaucherComptable);
       //Sup.log(`Nombre d comptable ${nbComptable}`); 
     });
     
@@ -70,7 +70,7 @@ class PersonnelBoutonBehavior extends Sup.Behavior{
         nbOuvrier -= 1;
       }
       AfficheOuvrier.textRenderer.setText(nbOuvrier);
-      this.clicVisuel(LicencierOuvrier);
+      clicVisuel(LicencierOuvrier);
       //Sup.log(`Nombre d ouvrier ${nbOuvrier}`);
     });
     
@@ -79,7 +79,7 @@ class PersonnelBoutonBehavior extends Sup.Behavior{
         nbCommercial -= 1;
       }
       AfficheCommercial.textRenderer.setText(nbCommercial);
-      this.clicVisuel(LicencierCommercial);
+      clicVisuel(LicencierCommercial);
       //Sup.log(`Nombre d commercial ${nbCommercial}`);
     });
     
@@ -88,7 +88,7 @@ class PersonnelBoutonBehavior extends Sup.Behavior{
         nbComptable -= 1;
       }
       AfficheComptable.textRenderer.setText(nbComptable);
-      this.clicVisuel(LicencierComptable);
+      clicVisuel(LicencierComptable);
       //Sup.log(`Nombre d comptable ${nbComptable}`); 
     });
     
@@ -128,15 +128,15 @@ class PersonnelBoutonBehavior extends Sup.Behavior{
       }
     }
   
-  clicVisuel(act: Sup.Actor) {
-    act.spriteRenderer.setVerticalFlip(true)
-  }
-  
-  noclic() {
-    for(let i = 0; i < this.menus.length; i++){
-      this.menus[i].spriteRenderer.setVerticalFlip(false)
-    }
-  }
-  
 }
 Sup.registerBehavior(PersonnelBoutonBehavior);
+
+function clicVisuel(act: Sup.Actor) {
+    act.spriteRenderer.setVerticalFlip(true)
+  }
+
+function noclic() {
+  for(let i = 0; i<this.menus.length;i++){
+    this.menus[i].spriteRenderer.setVerticalFlip(false)
+  }
+}
